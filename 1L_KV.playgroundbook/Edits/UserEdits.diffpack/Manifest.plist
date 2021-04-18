@@ -18,22 +18,35 @@
 		<array>
 			<dict>
 				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+			</dict>
+			<dict>
+				<key>File</key>
 				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</string>
 			</dict>
 			<dict>
 				<key>File</key>
 				<string>Chapters/Chapter1.playgroundchapter/UserManifest.plist</string>
 			</dict>
-		</array>
-		<key>Modified</key>
-		<array>
 			<dict>
-				<key>Diff</key>
-				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta</string>
 				<key>File</key>
-				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/CB8186E2-E843-484D-93C6-07EBF2BEFD9C.playgroundpage/main.swift</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/30F915DC-10FF-4304-8840-5129B50EC68D.playgroundpage/main.swift</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/CB8186E2-E843-484D-93C6-07EBF2BEFD9C.playgroundpage/UserManifest.plist</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/30F915DC-10FF-4304-8840-5129B50EC68D.playgroundpage/UserManifest.plist</string>
 			</dict>
 		</array>
+		<key>Modified</key>
+		<array/>
 		<key>Removed</key>
 		<array/>
 		<key>Replaced</key>
