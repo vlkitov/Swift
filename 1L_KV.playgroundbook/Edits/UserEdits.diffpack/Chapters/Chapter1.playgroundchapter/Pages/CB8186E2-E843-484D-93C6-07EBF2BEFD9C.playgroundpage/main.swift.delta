@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string> /* 
+  2. Даны катеты прямоугольного треугольника. Найти площадь, периметр и гипотенузу треугольника.
+ */
+ 
+ let cathetusA = 5 // 1й Катет треугольника
+ let cathetusB = 3 // 2й Катет треугольника
+ var hypotenuseC: Float? // Гипотенуза треугольника
+ 
+ var area = (Double(cathetusA) * Double(cathetusB))/2 // Вычисление площади треугольника
+ print("Площадь треугольника = \(area)")
+ 
+ hypotenuseC = Float(cathetusA * cathetusA + cathetusB * cathetusB).squareRoot() // Вычисление гипотенузы 
+ print("Гипотенуза треугольника = \(hypotenuseC!)")
+ 
+ var perimeter = Double(cathetusA + cathetusB) + Double(hypotenuseC!) // Вычисление периметра
+ print("Периметр треугольника = \(Double(perimeter))")
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 692}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
