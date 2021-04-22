@@ -9,13 +9,25 @@
 		<dict>
 			<key>ModifiedContent</key>
 			<string>// 3. Пользователь вводит сумму вклада в банк и годовой процент. Найти сумму вклада через 5 лет.
+
+var deposit: Double = 1000
+var percent: Double = 11
+
+deposit = deposit + (deposit * percent / 100)
+deposit += (deposit * percent / 100)
+deposit += (deposit * percent / 100)
+deposit += (deposit * percent / 100)
+deposit += (deposit * percent / 100)
+
+print("Сумма вклада через 5 лет \(deposit)")
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 97}</string>
+			<string>{0, 391}</string>
 			<key>OriginalContent</key>
-			<string></string>
+			<string>
+</string>
 			<key>OriginalRange</key>
-			<string>{0, 0}</string>
+			<string>{0, 1}</string>
 		</dict>
 	</array>
 	<key>FormatVersion</key>
