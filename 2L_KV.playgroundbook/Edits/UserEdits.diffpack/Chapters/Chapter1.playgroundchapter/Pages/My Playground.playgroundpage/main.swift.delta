@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Логическое И
+true &amp;&amp; true
+true &amp;&amp; false
+false &amp;&amp; true
+false &amp;&amp; false
+
+    // Логическое ИЛИ
+
+true || true
+true || false
+false || true
+false || false
+
+    // Логическое НЕ
+
+!true
+!false
+
+var t = 5
+var r = 7
+
+(t&gt;r) || (t == 7)
+
+    // Ветвление
+
+if t == 6 {
+    print("t == 6")
+}else if r == 7{
+    print("t == 7")
+}else {
+    print(t + r)
+}
+
+// Ветвление Тернарный
+
+t == 5 ? print(r) : print(t)
+
+var h = 100
+var isHeader = false
+let rr = h + (isHeader == true ? 20 : 10)
+print(rr)
+
+    // Ветвление Switch
+
+let userMark = 0
+
+switch userMark {
+case 1:
+    print("Плохо. Экзамен не сдан")
+    case 2:
+        print("Плохо. Экзамен не сдан")
+        case 3:
+            print("Удовлетворительно. Эксзамен сдан")
+            case 4:
+                print("Хорошо. Экзамен сдан")
+                case 5:
+                    print("Отлично. Экзамен сдан")
+default:
+    print("Студен не пришел")
+}
+
+
+var a = 5
+var b = 19
+var c = 8
+
+var D = (b*b) - 4 * a * c
+
+switch D {
+case _ where D &gt; 0:
+    print("Two root")
+    case _ where D == 0:
+        print("One root")
+        default:
+            print("no root")
+}
+
+// Циклы
+
+// Оператор for
+
+var totalSum = 0
+for i in 1...10 {
+    totalSum += i
+        // totalSum = totalSum +i
+}
+
+print(totalSum)
+
+    // Работа с массивом
+
+var musicArray = ["Rock", "Jazz", "Hip-hop"]
+
+for musicName in musicArray {
+    print("I love \(musicName)")
+}
+
+
+var country = ["Россия":"ЕАЭС", "США":"Нато", "Франция":"ЕС"]
+
+for (countryName, blockName) in country {
+    print("\(countryName) вступила в \(blockName)")
+}
+
+
+var i = 1
+var resultSum = 0
+
+while i &lt;= 10 {
+    resultSum += i
+    i += 2
+}
+print(resultSum)
+print(i)
+
+
+var o = 1
+var result = 0
+
+repeat {
+    result += o
+    o += 2
+} while o &lt;= 10
+print(result)
+print(o)
+
+    // Функции
+
+func myFirstFunction(firstValue someValue: Int, another: String, _ value: String) -&gt; String {
+    let c = String(someValue) + another + value
+    return c
+}
+print(myFirstFunction(firstValue: 5, another: "90", "1"))
+
+
+
+func printMessage() -&gt; () {
+    print("Hello, world")
+}
+
+printMessage()
+
+
+
+var aaa = 5
+var bbb = 10
+
+func change(_ a: inout Int, _ b: inout Int) {
+    let tmp = a
+    a = b
+    b = tmp
+}
+
+print(aaa)
+print(bbb)
+change(&amp;aaa, &amp;bbb)
+
+print(aaa)
+print(bbb)
+
+
+func generate(code: Int, message: String) -&gt; String {
+    let returnMessage = "Получение \(message) с кодом \(code)"
+    return returnMessage
+}
+
+print(generate(code: 200, message))
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 2417}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
